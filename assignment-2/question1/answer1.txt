@@ -1,0 +1,56 @@
+HTTP methods are fundamental components of the HTTP protocol used in client-server communication within web architectures. They define the action that the client (typically a web browser or application) wants the server to perform on a specific resource. Each HTTP method has a distinct role and is used in different scenarios depending on the desired outcome.
+
+Here's a summary of the most commonly used HTTP methods:
+
+1. GET
+Purpose: Retrieve data from a server.
+Usage: When a client wants to request data from a specific resource, like a web page or an API endpoint.
+Example: Retrieving a list of products from an online store.
+
+
+2. POST
+Purpose: Send data to the server to create a new resource.
+Usage: When a client wants to submit form data, upload a file, or send information to an API.
+Example: Creating a new user account or posting a comment on a blog.
+
+
+3. PUT
+Purpose: Update an existing resource or create it if it doesn't exist.
+Usage: When a client wants to modify a resource, like updating user details or replacing a file.
+Example: Updating a user's profile information.
+
+
+4. DELETE
+Purpose: Remove a resource from the server.
+Usage: When a client wants to delete a resource, like removing a user account or deleting a post.
+Example: Deleting a product from an inventory.
+
+
+5. PATCH
+Purpose: Partially update an existing resource.
+Usage: When a client wants to make a partial update, like changing only the user's email address.
+Example: Updating the status of an order.
+
+
+6. HEAD
+Purpose: Retrieve only the headers of a resource without the body.
+Usage: When a client wants to check if a resource exists or to obtain metadata without downloading the full content.
+Example: Checking if a file exists on the server before downloading it.
+
+
+7. OPTIONS
+Purpose: Describe the communication options available for the target resource.
+Usage: Often used in CORS (Cross-Origin Resource Sharing) to determine what HTTP methods are supported by the server.
+Example: Pre-flight request in CORS to check allowed methods.
+
+
+8. CONNECT
+Purpose: Establish a tunnel to the server, usually used for SSL encryption.
+Usage: When a client needs to establish a secure connection to the server, often for HTTPS.
+Example: Setting up a secure connection to a website.
+
+
+9. TRACE
+Purpose: Perform a message loop-back test along the path to the target resource.
+Usage: Mainly used for debugging to see how the message is being processed by the server.
+Example: Tracing the path of a request through multiple proxies.
