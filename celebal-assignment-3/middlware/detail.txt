@@ -1,0 +1,6 @@
+Middleware is a function that has access to the request (req) and response (res) objects, and the next function in the application’s request-response cycle. Middleware functions can perform tasks such as:
+
+Executing code
+Modifying request and response objects
+Ending the request-response cycle
+Calling the next middleware function in the stack
